@@ -6,9 +6,13 @@ An utility class to access firestore database for Android (getOne, create, updat
 ## Sample Usage-
 
 First of all create an instance of `FirestoreDbUtility` in your `ExampleActivity` something like-
+
 `FirestoreDbUtility firestoreDbUtility = new FirestoreDbUtility();`
+
 Define collection name-
+
 `String collectionName = "users"; // collection (table) name `
+
 
 ### GET unique document from firestore collection
 
